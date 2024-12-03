@@ -1,0 +1,85 @@
+@font-face {
+    font-family: 'Amsterdam Four';
+    src: url('/fonts/AmsterdamFour.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'The Seasons';
+    src: url('/fonts/TheSeasons.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Cardo';
+    src: url('/fonts/Cardo.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Glypher';
+    src: url('/fonts/Glypher.ttf') format('truetype');
+}
+
+/* Font Classes */
+.font-amsterdam-four {
+    font-family: 'Amsterdam Four', sans-serif;
+}
+
+.font-the-seasons {
+    font-family: 'The Seasons', serif;
+}
+
+.font-cardo {
+    font-family: 'Cardo', serif;
+}
+
+.font-glypher {
+    font-family: 'Glypher', sans-serif;
+}
+
+/* Image Styling */
+.img-story {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+/* Additional Font Imports */
+@import url('https://fonts.googleapis.com/css2?family=Cardo:wght@400;700&display=swap');
+/* Cardo is available on Google Fonts */
+
+/* CSS Variables */
+:root {
+    --inv-bg: #ffffff;
+    --inv-base: #9a5059;
+    --inv-accent: #bc6872;
+    --inv-border: #bc6872;
+    --font-base: 'Cardo', serif;
+    --font-accent: 'Amsterdam Four', serif;
+    --font-latin: 'The Seasons', sans-serif;
+    --menu-bg: #bc6872;
+    --menu-inactive: #ffffff;
+    --menu-active: #9a5059;
+    --btn-color: #ffffff;
+}
+
+/* Using other fonts */
+.font-amsterdam-four {
+    font-family: 'Amsterdam Four';
+    line-height: 1.6 !important;
+}
+
+.font-the-seasons {
+    font-family: 'The Seasons';
+    line-height: 1.6 !important;
+}
+
+.font-cardo {
+    font-family: 'Cardo';
+    line-height: 1.6 !important;
+}
+
+.font-glypher {
+    font-family: 'Glypher';
+    line-height: 1.6 !important;
+}
